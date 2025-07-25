@@ -1,0 +1,28 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.grid {
+  display: flex;
+  border: 0.5px solid rgb(0, 0, 0);
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 600px;
+  width: 600px;
+}
+
+.rows {
+  display: flex;
+  /* gap: 5px; */
+
+  width: 100%;
+  flex: 1;
+}
